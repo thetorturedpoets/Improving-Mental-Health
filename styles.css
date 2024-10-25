@@ -1,0 +1,62 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Post content styling */
+.post h2 {
+    font-size: 1.5em;
+    color: #444;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Response styling */
+.response {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.response h3 {
+    font-size: 1.4em;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+/* Name styling */
+.response h2 {
+    font-size: 1.1em;
+    color: #555;
+    font-weight: normal;
+    margin: 5px 0 15px;
+}
+
+/* Read More link styling */
+.read-more {
+    color: #1a73e8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
